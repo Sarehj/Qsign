@@ -1,0 +1,15 @@
+.loading-container {
+    box-sizing: border-box;
+    background: url("../../Images/image3.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.spinner {
+    scale:2;
+}
+

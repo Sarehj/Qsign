@@ -1,0 +1,32 @@
+.profile-settings-all {
+  box-sizing: border-box;
+  background: url("../Images/image3.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.blur {
+  backdrop-filter: blur(2px);
+}
+
+.profile-settings-container {
+  margin: auto;
+  margin-top: 3rem;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  opacity: 90%;
+  width: 50%;
+} 
+.button {
+  padding: 10px;
+  background: #384e5a;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+ 
+  }

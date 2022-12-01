@@ -1,0 +1,9 @@
+.btn-login-auth0 {
+    background: none;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,129 @@
+.login-container {
+  box-sizing: border-box;
+  background: url("../Images/image3.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.signup-container {
+  box-sizing: border-box;
+  background: url("../Images/image3.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+  margin-top: 3rem;
+}
+
+.form {
+  max-width: 350px;
+  margin: 2.5% auto;
+  padding: 0 20px;
+  background: white;
+  border-radius: 8px;
+  height: auto;
+  box-shadow: 0 2px 35px 0 rgba(40 68 123 /200%);
+
+}
+.form h1 {
+  color: black;
+  background: white;
+  margin: 20px 20px;
+}
+.form a {
+  color: black;
+  text-decoration: none;
+  background: white;
+}
+.form p {
+  background: white;
+  margin-bottom: 20px;
+}
+input {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+.input-type-text {
+  height: 40px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #999;
+  background: #fff;
+ 
+}
+.form-button {
+   /* background: rgb(0, 85, 255); */
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  height: 40px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+}
+input[type=“checkbox”] {
+  display: inline-block;
+  width: auto;
+}
+.reply-box {
+  width: 60%;
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.reply-box textarea {
+  width: 100%;
+  font-size: 20px;
+  height: 50%;
+  align-items: center;
+  overflow: auto;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.line-or {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.one-line {
+  margin-top: 2px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.or-span {
+  margin-left: 7px;
+  margin-right: 7px;
+}
