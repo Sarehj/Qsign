@@ -94,13 +94,13 @@ public class UserController : ControllerBase
         return Accepted(_user);
     }
 
-    [Route("/GetAllUsers")]
-    [HttpGet]
-    public ActionResult<List<User>> GetAll()
-    {
-        var users = from u in _context.Users select u;
-        return users.ToList();
-    }
+    // [Route("/GetAllUsers")]
+    // [HttpGet]
+    // public ActionResult<List<User>> GetAll()
+    // {
+    //     var users = from u in _context.Users select u;
+    //     return users.ToList();
+    // }
 
     [HttpGet]
     [Route("/GetUserPublicInfo/{id}")]
