@@ -46,6 +46,11 @@ https://www.qsign.org
 - Importing your own keys
 - QR-codes
 - Implement different cryptographic algorithm options for the user
+    - Elliptic Curve DSA (ECDSA)
+    - Edwards-Curve DSA (EdDSA)
+    - ElGammal
+    - Rabin Signature Algorithm
+    - NTRUSign
 
 ## Screenshots:
 
