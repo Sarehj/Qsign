@@ -13,7 +13,7 @@ https://www.qsign.org
 - Axel Hagdahl
 - Carl Holmström
 - Robin Öberg
-- Sareh Jalali
+- Sareh Jalalizad
 
 
 ## Technologies used:
